@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CalculatorViewController.h"
+#import "AppStoreViewController.h"
 
 @implementation AppDelegate
 
@@ -30,28 +31,25 @@
     weightConverter.title = @"Weight";
     weightConverter.tabBarItem.image = [UIImage imageNamed:@"weight_tab_bar.png"];
     
-    CalculatorViewController *volumeConverter = [[CalculatorViewController alloc] init];
-    volumeConverter.category = @"volume";
+    AppStoreViewController *volumeConverter = [[AppStoreViewController alloc] init];
     volumeConverter.title = @"Volume";
     volumeConverter.tabBarItem.image = [UIImage imageNamed:@"volume_tab_bar.png"];
     
-    CalculatorViewController *timeConverter = [[CalculatorViewController alloc] init];
-    timeConverter.category = @"time";
+    AppStoreViewController *timeConverter = [[AppStoreViewController alloc] init];
     timeConverter.title = @"Time";
     timeConverter.tabBarItem.image = [UIImage imageNamed:@"time_tab_bar.png"];
     
-    CalculatorViewController *speedConverter = [[CalculatorViewController alloc] init];
-    speedConverter.category = @"speed";
+    AppStoreViewController *speedConverter = [[AppStoreViewController alloc] init];
     speedConverter.title = @"Speed";
     
-    CalculatorViewController *temperatureConverter = [[CalculatorViewController alloc] init];
-    temperatureConverter.category = @"temperature";
+    AppStoreViewController *temperatureConverter = [[AppStoreViewController alloc] init];
     temperatureConverter.title = @"Temperature";
-    
-    CalculatorViewController *areaConverter = [[CalculatorViewController alloc] init];
-    areaConverter.category = @"area";
-    areaConverter.title = @"Area";
 
+    AppStoreViewController *areaConverter = [[AppStoreViewController alloc] init];
+    areaConverter.title = @"Area";
+    
+
+    
     
     
     self.tabBarController = [[UITabBarController alloc] init];

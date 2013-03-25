@@ -15,6 +15,7 @@
 		730AF35616A657940058264B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AF35516A657940058264B /* AppDelegate.m */; };
 		730AF35816A657940058264B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 730AF35716A657940058264B /* Default.png */; };
 		730AF36616A661850058264B /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AF36516A661850058264B /* CalculatorViewController.m */; };
+		732A695A1700BC1500DBDC9B /* full_version_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 732A69591700BC1500DBDC9B /* full_version_icon.png */; };
 		7390A22216A7228600373AD6 /* Calculations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7390A22116A7228600373AD6 /* Calculations.m */; };
 		7390A22C16A85B9300373AD6 /* weight_tab_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7390A22B16A85B9300373AD6 /* weight_tab_bar@2x.png */; };
 		7390A23016A88D9E00373AD6 /* length_tab_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7390A22F16A88D9E00373AD6 /* length_tab_bar@2x.png */; };
@@ -24,6 +25,7 @@
 		73AC9BF816AA541900ACE332 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AC9BF716AA541900ACE332 /* Default-568h@2x.png */; };
 		73AC9BFB16AA559B00ACE332 /* app_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AC9BF916AA550800ACE332 /* app_icon_114.png */; };
 		73AC9BFD16AA55A000ACE332 /* app_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AC9BFC16AA55A000ACE332 /* app_icon_57.png */; };
+		73D7351217009CAE00D67D7E /* AppStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D7351117009CAE00D67D7E /* AppStoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,7 @@
 		730AF35B16A657940058264B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		730AF36416A661850058264B /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		730AF36516A661850058264B /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		732A69591700BC1500DBDC9B /* full_version_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = full_version_icon.png; path = ../ConversionsApp/full_version_icon.png; sourceTree = "<group>"; };
 		7386B9A916FFFEA6009E4725 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7390A22016A7228600373AD6 /* Calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculations.h; sourceTree = "<group>"; };
 		7390A22116A7228600373AD6 /* Calculations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculations.m; sourceTree = "<group>"; };
@@ -53,6 +56,8 @@
 		73AC9BF716AA541900ACE332 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		73AC9BF916AA550800ACE332 /* app_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_114.png; sourceTree = "<group>"; };
 		73AC9BFC16AA55A000ACE332 /* app_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_57.png; sourceTree = "<group>"; };
+		73D7351017009CAE00D67D7E /* AppStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStoreViewController.h; sourceTree = "<group>"; };
+		73D7351117009CAE00D67D7E /* AppStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 				7386B9A916FFFEA6009E4725 /* StoreKit.framework */,
 				73AC9BFC16AA55A000ACE332 /* app_icon_57.png */,
 				73AC9BF916AA550800ACE332 /* app_icon_114.png */,
+				732A69591700BC1500DBDC9B /* full_version_icon.png */,
 				73AC9BF716AA541900ACE332 /* Default-568h@2x.png */,
 				73AC9BF516AA540200ACE332 /* Default@2x.png */,
 				730AF34B16A657940058264B /* ConversionsApp */,
@@ -106,6 +112,8 @@
 			children = (
 				730AF35416A657940058264B /* AppDelegate.h */,
 				730AF35516A657940058264B /* AppDelegate.m */,
+				73D7351017009CAE00D67D7E /* AppStoreViewController.h */,
+				73D7351117009CAE00D67D7E /* AppStoreViewController.m */,
 				730AF36416A661850058264B /* CalculatorViewController.h */,
 				730AF36516A661850058264B /* CalculatorViewController.m */,
 				7390A22016A7228600373AD6 /* Calculations.h */,
@@ -202,6 +210,7 @@
 				73AC9BF816AA541900ACE332 /* Default-568h@2x.png in Resources */,
 				73AC9BFB16AA559B00ACE332 /* app_icon_114.png in Resources */,
 				73AC9BFD16AA55A000ACE332 /* app_icon_57.png in Resources */,
+				732A695A1700BC1500DBDC9B /* full_version_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +225,7 @@
 				730AF35616A657940058264B /* AppDelegate.m in Sources */,
 				730AF36616A661850058264B /* CalculatorViewController.m in Sources */,
 				7390A22216A7228600373AD6 /* Calculations.m in Sources */,
+				73D7351217009CAE00D67D7E /* AppStoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +283,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: joseph cortopassi";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -282,7 +292,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9A3C7321-6CB3-4FA9-A131-3BAD262FA463";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -305,13 +315,15 @@
 		730AF36116A657940058264B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: joseph cortopassi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: joseph cortopassi";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConversionsApp/ConversionsApp-Prefix.pch";
 				INFOPLIST_FILE = "ConversionsApp/ConversionsApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9A3C7321-6CB3-4FA9-A131-3BAD262FA463";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9A3C7321-6CB3-4FA9-A131-3BAD262FA463";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
